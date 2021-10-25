@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/root_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="50dp"
+            app:layout_constraintLeft_toLeftOf="@+id/root_layout"
+            app:layout_constraintTop_toTopOf="@+id/root_layout"
+            android:backgroundTint="@color/purple_500"
+            android:layout_height="50dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
